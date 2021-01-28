@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Company.Product.Data</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="10.1.1" />
+      <PackageReference Include="AutoMapper.Extensions.ExpressionMapping" Version="4.1.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.2" />
+      <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="DataTransferObjects" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Company.Product.Api.Core\Company.Product.Api.Core.csproj" />
+    </ItemGroup>
+
+</Project>

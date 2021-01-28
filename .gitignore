@@ -1,0 +1,14 @@
+.idea/
+
+*.suo
+*.user
+.vs/
+[Bb]in/
+[Oo]bj/
+_UpgradeReport_Files/
+Properties/
+[Pp]ackages/
+
+Thumbs.db
+Desktop.ini
+.DS_Store
