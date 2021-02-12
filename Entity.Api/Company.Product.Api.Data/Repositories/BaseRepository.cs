@@ -31,6 +31,8 @@ namespace Company.Product.Data.Repositories
 			return _mapper.Map<IEnumerable<T>>(_context.Set<TDto>());
 		}
 
+		public int Count() => _context.Set<TDto>().Count();
+
 		public IEnumerable<T> GetBatch<TResult>(
 			int skip,
 			int take,

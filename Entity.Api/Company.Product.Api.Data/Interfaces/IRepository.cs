@@ -12,6 +12,7 @@ namespace Company.Product.Data.Interfaces
 	{
 		T GetById(Guid id);
 		IEnumerable<T> GetAll();
+		int Count();
 
 		IEnumerable<T> GetBatch<TResult>(
 			int skip,
